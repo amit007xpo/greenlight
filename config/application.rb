@@ -130,7 +130,7 @@ module Greenlight
     # DEFAULTS
 
     # Default branding image if the user does not specify one
-    config.branding_image_default = "app/assets/images/logo_with_text.jpeg"
+    config.branding_image_default = "https://github.com/amit007xpo/greenlight/blob/custom-changes/app/assets/images/logo_with_text.jpeg"
 
     #Default fevicon 
     config.default_fevicon = "fevicon.jpeg"
