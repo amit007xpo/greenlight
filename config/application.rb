@@ -130,8 +130,10 @@ module Greenlight
     # DEFAULTS
 
     # Default branding image if the user does not specify one
-    config.branding_image_default = "https://raw.githubusercontent.com/bigbluebutton/greenlight/master/app/assets/images/logo_with_text.png"
+    config.branding_image_default = "/app/assets/images/logo_with_text.jpeg"
 
+    #Default fevicon 
+    config.default_fevicon = "/app/assets/images/fevicon.jpeg"
     # Default primary color if the user does not specify one
     config.primary_color_default = "#467fcf"
 
