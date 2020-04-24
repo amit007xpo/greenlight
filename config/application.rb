@@ -133,7 +133,7 @@ module Greenlight
     config.branding_image_default = "https://raw.githubusercontent.com/amit007xpo/greenlight/custom-changes/app/assets/images/logo_with_text.jpeg"
 
     #Default fevicon 
-    config.default_fevicon = "https://raw.githubusercontent.com/amit007xpo/greenlight/custom-changes/app/assets/images/fevicon.jpeg"
+    config.default_fevicon = "https://raw.githubusercontent.com/amit007xpo/greenlight/custom-changes/app/assets/images/fevicon.png"
     # Default primary color if the user does not specify one
     config.primary_color_default = "#467fcf"
 
