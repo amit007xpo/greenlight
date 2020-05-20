@@ -87,7 +87,7 @@
                       <div class="small text-muted"><%= [t("administrator.users.table.created"), ": ", user.created_at].join %></div>
                     </td>
                     <td class="user-email"><%= user.email && user.email != "" ? user.email : user.username%></td>
-                    <td><%= user.provider %></td>
+                    <td>admin</td>
                     <td class="text-center">
                       <% roles = user.roles().pluck(:name) %>
                       <%= render "admins/components/admins_role", role: user.highest_priority_role %>
